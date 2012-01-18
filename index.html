@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Imperial Hackathon Site Iteration 1</title>
+	<meta name="description" content="">
+	<meta name="author" content="Sam Wong sam.wong09@imperial.ac.uk">
+
+	<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Le styles -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<style type="text/css">
+	.sponsors {
+		width: 468px;
+		height: 130px;
+	}
+	
+	.emaildomain {
+		color: #404040 !important;
+	}
+
+	.placeholderRight {
+		text-align: right !important;
+	}
+
+	body {
+		padding-top: 60px;
+	}
+
+	</style>
+
+	<!-- Le fav and touch icons -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script>
+	var id = 2;
+	function addMemberHTML(){
+		$newMember = $(
+			'			<fieldset>' +
+			// '				<legend>Member ' + id + '</legend>' +
+			'				<div class="clearfix">' +
+			'					<label for="member' + id + '">Member ' + id + ': Name</label>' +
+			'					<div class="input">' +
+			'						<input class="xlarge" id="member' + id + '" name="member' + id + '" size="30" type="text" placeholder="John Doe">' +
+			'					</div>' +
+			'				</div><!-- /clearfix -->' +
+			'				<div class="clearfix">' +
+			'					<label for="member' + id + 'email">Member ' + id + ': Email</label>' +
+			'					<div class="input input-append">' +
+			'						<input class="xlarge placeholderRight" id="member' + id + 'email" name="member' + id + 'email" size="20" type="text" placeholder="john.doe97" style="width: 167px;"><span class="add-on emaildomain">@imperial.ac.uk</span>' +
+			'					</div>' +
+			'				</div><!-- /clearfix -->' +
+			'			</fieldset>');
+			id++;
+			return $newMember;
+		}
+
+		$(document).ready(function(){
+			$("#addmember").click(function() {
+				if(id < 6){
+					addMemberHTML().insertBefore("#formElt > fieldset:last");
+					$("#removemember").text("Member--");
+					if(id == 6) $("#addmember").text("Maxed");
+				}
+			});
+			$("#removemember").click(function(){
+				if(id > 2){
+					id--;
+					$("#formElt > fieldset:last").prev().remove();
+					$("#addmember").text("Member++");
+					if(id == 2) $("#removemember").text("Min");
+				}
+			});
+			$(".remove").click(function() {
+				$(this).parent().remove();
+			});
+			$('#tldrform').hide();
+			$('#tldrbtn').click(
+				function(){
+					$('#tldrform').slideToggle();
+				}
+			);
+		});
+		</script>
+	</head>
+
+	<body>
+
+		<div class="topbar">
+			<div class="fill">
+				<div class="container">
+					<a class="brand" href="#">Imperial Hackathon</a>
+					<ul class="nav">
+						<li class="active"><a href="#">Sponsors</a></li>
+						<li><a href="#">Prizes</a></li>
+						<li><a href="#">The Challenge</a></li>
+						<li><a href="#">Agenda</a></li>
+						<li><a href="#">Organisers</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<header class="jumbotron masthead" id="overview" style='background: url(http://imperialentrepreneurs.com/wp-content/uploads/2011/10/imperial_logo_alpha.png) no-repeat center center; background-size: 40%; height:200px;'>
+		</header>
+		<div class="container">
+			<div class='span16'>
+
+
+			</div>
+			<!-- Main hero unit for a primary marketing message or call to action -->
+			<div class="hero-unit">  
+				<h1 style='text-align: center;'>Imperial Hackathon <span class="btn primary large" id='tldrbtn' style='vertical-align: middle; font-size: 20px;'>tl;dr / Signup &raquo;</span></h1>
+				<br>
+				<div class="row">
+					<div class="span8 offset3">
+						<div id="tldrform">
+							<form id='formElt'>
+								<fieldset>
+									<legend>Sign up here</legend>
+									<div class="clearfix">
+										<label for="teamname">Your Team Name</label>
+										<div class="input">
+											<input class="xlarge" id="teamname" name="teamname" size="30" type="text" placeholder="X-Men">
+										</div>
+									</div><!-- /clearfix -->
+									<div class="clearfix">
+										<label for="leader">Leader</label>
+										<div class="input">
+											<input class="xlarge" id="leader" name="leader" size="30" type="text" placeholder="Professor Charles Francis Xavier">
+										</div>
+									</div><!-- /clearfix -->
+									<div class="clearfix">
+										<label for="email">Email</label>
+										<div class="input input-append">
+											<input class="xlarge placeholderRight" id="email" name="email" size="20" type="text" placeholder="charles.francis63" style="width: 168px;"><span class="add-on emaildomain">@imperial.ac.uk</span>
+										</div>
+									</div><!-- /clearfix -->
+								</fieldset>
+								<fieldset>
+									<span id="addmember" class="btn success" value="Add Member" style='float: right; margin-right: 30px;'>Member++</span>
+									<span id="removemember" class="btn danger" value="Add Member" style='float:right;'>Min</span>
+								</fieldset>
+								<div class="actions" style='clear:both;'>
+									<input type="submit" class="btn primary" value="That was easy">&nbsp;<button type="reset" class="btn">Clear</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="span9">
+						<p class="lead">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquet, nunc feugiat bibendum aliquam, neque tellus hendrerit tellus, vel ultricies massa ipsum vitae urna. Curabitur eget ipsum quam, nec consequat libero. In ultrices mauris at sapien facilisis euismod porta velit elementum. Praesent interdum, elit sit amet interdum dignissim, nulla turpis viverra arcu, sit amet imperdiet metus nisl id odio. Sed pretium tincidunt nunc, nec dapibus justo pharetra at.					
+						</p>
+					</div>
+					<div class="span5">
+						<div id="newsletter">
+							<form id='newsformElt' class='form-stacked'>
+								<fieldset>
+									<legend>Stay in touch</legend>
+									<div class="clearfix">
+										<!-- <label for="newslettername">Name</label> -->
+										<div class="input">
+											<input class="xlarge" id="newslettername" name="newslettername" size="30" type="text" placeholder="Professor Charles Francis Xavier">
+										</div>
+									</div><!-- /clearfix -->
+									<div class="clearfix">
+										<div class="input input-append">
+											<input class="xlarge placeholderRight" id="newsletteremail" name="newsletteremail" size="20" type="text" placeholder="charles.francis63" style="width: 168px;"><span class="add-on emaildomain">@imperial.ac.uk</span>
+										</div>
+									</div><!-- /clearfix -->
+								</fieldset>
+								<div class="actions">
+									<input type="submit" class="btn primary" value="Let's keep in touch">&nbsp;
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Example row of columns -->
+			<div class="row">
+				<div class="span-one-third">
+					<h2>Heading</h2>
+					<p>Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+					<p><a class="btn" href="#">View details &raquo;</a></p>
+				</div>
+				<div class="span-one-third">
+					<h2>Heading</h2>
+					<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+					<p><a class="btn" href="#">View details &raquo;</a></p>
+				</div>
+				<div class="span-one-third">
+					<h2>Heading</h2>
+					<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+					<p><a class="btn" href="#">View details &raquo;</a></p>
+				</div>
+			</div>
+			<footer class="footer">
+				<div class="container">
+					<h2>Our deep pocket sponsors</h2>
+					<img src="http://cdn3.computerworlduk.com/cmsdata/news/3240447/Microsoft.jpg" height=150 width=400 class='sponsors'/>
+					<img src="http://cdn3.computerworlduk.com/cmsdata/news/3240447/Microsoft.jpg" height=150 width=400 class='sponsors'/>
+					<img src="http://cdn3.computerworlduk.com/cmsdata/news/3240447/Microsoft.jpg" height=150 width=400 class='sponsors'/>
+					<img src="http://cdn3.computerworlduk.com/cmsdata/news/3240447/Microsoft.jpg" height=150 width=400 class='sponsors'/>
+					<img src="http://cdn3.computerworlduk.com/cmsdata/news/3240447/Microsoft.jpg" height=150 width=400 class='sponsors'/>
+					<img src="http://cdn3.computerworlduk.com/cmsdata/news/3240447/Microsoft.jpg" height=150 width=400 class='sponsors'/>
+					<img src="http://cdn3.computerworlduk.com/cmsdata/news/3240447/Microsoft.jpg" height=150 width=400 class='sponsors'/>
+					<img src="http://cdn3.computerworlduk.com/cmsdata/news/3240447/Microsoft.jpg" height=150 width=400 class='sponsors'/>
+										<p class="pull-right"><a href="#">Back to top</a></p>
+					<p>&copy; Imperial Entrepreneurs 2012, by Sam</p>
+				</p>
+			</div>
+		</footer>
+
+	</div> <!-- /container -->
+
+</body>
+</html>
