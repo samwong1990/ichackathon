@@ -16,11 +16,11 @@
 	<!-- <link rel="stylesheet" href="css/chosen.css" /> -->
   
 	<style type="text/css">
-	div.topbar{
-		z-index:9999;
+	div.topbar, div.fill{
+		z-index:9999999;
 	}
 	
-	section{
+	section, #signup_form_html{
 		padding-top: 40px; 
 		margin-top: -40px;
 	}
@@ -103,32 +103,42 @@
 			$(".remove").click(function() {
 				$(this).parent().remove();
 			});
-			$('#tldrform').hide();
+			$('#signup_form_html').hide();
 			$('#tldrbtn').click(
 				function(){
-					if($('#tldr_signup_form #tldrform').length > 0){
-						$('#tldrform').slideToggle();
+					if($('#tldr_signup_form #signup_form_html').length > 0){
+						$('#signup_form_html').slideToggle();
 					}else{
-						$('#tldrform').slideUp('slow', function(){
-							$('#tldr_signup_form').append($('#tldrform'));
-							$('#tldrform').slideDown();
+						$('#signup_form_html').slideUp('slow', function(){
+							$('#tldr_signup_form').append($('#signup_form_html'));
+							$('#signup_form_html').slideDown();
 						});
 					}	
 				}
 			);
 			$('#main_signup').click(
 				function(){
-					if($('#main_signup_form #tldrform').length > 0){
-						$('#tldrform').slideToggle();
+					if($('#main_signup_form #signup_form_html').length > 0){
+						$('#signup_form_html').slideToggle();
 					}else{
-						$('#tldrform').slideUp('slow', function(){
-							$('#main_signup_form').append($('#tldrform'));
-							$('#tldrform').slideDown();
+						$('#signup_form_html').slideUp('slow', function(){
+							$('#main_signup_form').append($('#signup_form_html'));
+							$('#signup_form_html').slideDown();
 						});
 					}
 				}
 			);
+			$('.show_signup_form').click(function(){
+				$('#tldr_signup_form').append($('#signup_form_html'));
+				$('#signup_form_html').slideDown();
+				setTimeout(hotfix_disappearing_topbar,0);
+			});
 		});
+		
+		function hotfix_disappearing_topbar(){
+			window.scrollBy(0,1);window.scrollBy(0,-1);
+			console.log('ran');
+		}
 		</script>
 	</head>
 
@@ -138,7 +148,7 @@
 				<div class="container">
 					<a class="brand" href="#">Imperial Hackathon</a>
 					<ul class="nav">
-						<li><a href="#signup">Sign up</a></li>
+						<li class='show_signup_form'><a href="#signup">Sign up</a></li>
 						<li><a href="#prizes">Prizes</a></li>
 						<li><a href="#challenge">The Challenge</a></li>
 						<li><a href="#agenda">Agenda</a></li>
@@ -162,7 +172,7 @@
 			<br>
 			<div class="row">
 				<div class="span8 offset3" id='tldr_signup_form'>
-					<div id="tldrform">
+					<div id="signup_form_html">
 						<form id='formElt'>
 							<fieldset>
 								<legend>Sign up here</legend>
@@ -212,7 +222,9 @@
 					<p class="lead">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquet, nunc feugiat bibendum aliquam, neque tellus hendrerit tellus, vel ultricies massa ipsum vitae urna. Curabitur eget ipsum quam, nec consequat libero. In ultrices mauris at sapien facilisis euismod porta velit elementum. Praesent interdum, elit sit amet interdum dignissim, nulla turpis viverra arcu, sit amet imperdiet metus nisl id odio. Sed pretium tincidunt nunc, nec dapibus justo pharetra at.					
 					</p>
-					<span class="btn success large" id='main_signup' style='vertical-align: middle; font-size: 20px;'>Signup &raquo;</span>
+					<p style='text-align: center;'>
+					<span class="btn success large" id='main_signup' style='vertical-align: middle; font-size: 20px; margin-bottom: 20px;'>Signup &raquo;</span>
+					</p>
 				</div>
 				<div class="span5">
 					<div class="sponsor_panel title_sponsors">
