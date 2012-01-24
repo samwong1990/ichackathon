@@ -1,0 +1,40 @@
+.extraspace{
+    line-height: 3em;
+font-weight: bold;
+}
+
+div.topbar, div.fill{
+	z-index:9999999;
+}
+
+section, #signup_form_html{
+	padding-top: 40px; 
+	margin-top: -40px;
+}
+
+.prizes_ul li{
+	color:#404040;
+}
+
+.title_sponsors img {
+	width:140px;
+	height:40px;
+
+}
+
+.sponsors {
+	width: 468px;
+	height: 130px;
+}
+
+.emaildomain {
+	color: #404040 !important;
+}
+
+.placeholderRight {
+	text-align: right !important;
+}
+
+body {
+	padding-top: 60px;
+}
