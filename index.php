@@ -243,6 +243,7 @@
 									</div>
 								</fieldset>
 								<div class="actions" style='clear:both;'>
+									<input type="checkbox"> I agree that I did not pay attention to the <a href="http://nyanc.at">T&C</a>
 									<input type="submit" class="btn primary" value="That was easy">&nbsp;<button type="reset" class="btn">Clear</button>
 								</div>
 							</form>
