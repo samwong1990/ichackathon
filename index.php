@@ -209,7 +209,7 @@
 								<fieldset>
 									<legend>Sign up here</legend>
 									<div class="clearfix">
-										<label for="teamname">Your Team Name</label>
+										<label for="teamname">Your Awesome Team Name</label>
 										<div class="input">
 											<input class="xlarge" id="teamname" name="teamname" size="30" type="text" placeholder="X-Men">
 										</div>
