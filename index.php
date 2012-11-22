@@ -45,7 +45,7 @@
 			<div class="topbar">
 				<div class="fill">
 					<div class="container">
-						<a class="brand" href="">Imperial Hackathon</a>
+						<a class="brand" href="">ICHackathon</a>
 						<ul class="nav">
 							<li class='show_signup_form'><a href="#signup">Sign up</a></li>
 							<li><a href="#prizes">Prizes</a></li>
@@ -58,7 +58,7 @@
 				</div>
 			</div>
 			<div class="jumbotron masthead" id="overview" style='
-			background: url(images/ie_logo_alpha.png) no-repeat center center; background-size: contain; height:200px;'>
+			background: url(images/ie_docsoc.png) no-repeat center center; background-size: contain; height:200px;'>
 			</div>
 			<?php
 			if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -252,8 +252,9 @@
 				</div>
 				<div class="row">
 					<div class="span9">
-						<p class="lead">
-						Your team, your idea, your most productive 48 hours. Show Facebook and Microsoft engineers what you are made of. Food and Redbull will always be there to fuel you throughout the weekend. Make Imperial stand out, make a lasting impact.
+						<h5>An Imperial Entrepreneurs and DOCSOC Joint Production</h5>
+						<p class="lead">							
+						Your team, your idea, your most productive 48 hours.<br>Show Facebook and Microsoft engineers what you are made of. Food and Redbull will always be there to fuel you throughout the weekend. Make Imperial stand out, make a lasting impact.
 						</p>
 						<p style='text-align: center;'>
 							<span class="btn success large" id='main_signup' style='vertical-align: middle; font-size: 20px; margin-bottom: 20px;'>Signup &raquo;</span>
@@ -261,8 +262,10 @@
 					</div>
 					<div class="span5">
 						<div class="sponsor_panel title_sponsors">
-							<h4>Our Friends:</h4>
-							<img src="images/microsoft.jpg"/><img src="images/facebook.jpeg"/><img src="images/oxford.jpg"/>
+							<h4>With generous support from:</h4>
+							<img src="images/microsoft_in_aspect.png"/>
+							<img src="images/facebook_in_aspect.png"/>
+							<img src="images/oxfordinstruments_in_aspect.png"/>
 						</div>
 					</div>
 				</div>
@@ -272,42 +275,70 @@
 				</div>
 			</div>
 			<!-- End of eye catching block -->
+			<section id='agenda'>
+				<div class="page-header">
+					<h1>Agenda <small>Postponed to 19 Jan (TBC)</small></h1>
+				</div>
+				<table class='zebra-striped'>
+					<thead><tr><td style="border-top:0px">Date</td><td style="border-top: 0px"></td></tr></thead>
+					<tbody>
+						<tr>
+							<td>Mon 14 Jan Midnight</td><td>Application Deadline</td>
+						</tr>
+						<tr>
+							<td>Wed 16 Jan</td><td>Selected team gets their server</td>
+						</tr>
+						<tr>
+							<td>Sat 19 Jan</td><td>Hacking begins!</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
 			<section id='prizes'>
 				<div class="page-header">
 					<h1>Prizes <small>Get rich quick</small></h1>
 				</div>
 				<ul class='prizes_ul'>
-					<li>£n cash prize</li>
-					<li>Springboard package (Access to mentors plus £300+ of goodies)</li>
-					<li>Fast track to <b>Seedcamp Hackathon</b> on 1st April</li>
-					<li>Fast track to work with cool companies</li>
-					<li>Other secret treasure to be announced soon, you will be <b>wowed</b></li>
+					<li>Cash prize</li>
+					<li>Referral to Angel Investors</li>
+					<li>And surprises during the hackathon(!)</li>
 				</ul>
 			</section>
-			<section id='challenge'>
+			<section id='tools'>
 				<div class="page-header">
-					<h1>The challenge <small>Coming soon...</small></h1>
+					<h1>Tools <small>We want you to succeed</small></h1>
 				</div>
-			</section>
-			<section id='agenda'>
-				<div class="page-header">
-					<h1>Agenda <small>You don't want to miss anything</small></h1>
-				</div>
+				<h3>To help you succeed, we are going to provide the following tools:</h3>
+				<ul class='tools_ul'>
+					<li>A dedicated server to host your projects</li>
+					<li>Raspberry Pis</li>
+					<li>Endless beverages</li>
+					<li>Mentors from Facebook, Microsoft and (Real, established) Entrepreneurs</li>
+					<li>And finally, a post-hackathon marketing campaign</li>
+				</ul>
 			</section>
 			<section id='organisers'>
 				<div class="page-header">
-					<h1>The Awesome Team <small>The cool people behind this</small></h1>
+					<h1>Credits <small>The awesome people who make this happen</small></h1>
 				</div>
-				<h2>Sam Wong: The tech dude. <small><a href="mailto:sam.wong09@imperial.ac.uk">Get in touch</a></small></h2>
+				<h2 style="text-align:center">An Imperial Entrepreneurs & DocSoc joint production</h2>
+				<h3>The A Team:</h3>
+				<h3><a href="mailto:sam.wong09@imperial.ac.uk">Sam Wong: Director</a></h3>
+				<h3>Rudy Benfredj</h3>
+				<h3>Andrejs Antjufejevs</h3>
+				<h3>Serge Vasylechko</h3>
+				<h3>Maciek Biskupiak</h3>
 				<br>
 			</section>
 			<section id='sponsors'>
 				<div class="page-header">
 					<h1>Our Sponsors ♥ <small>Thank you</small></h1>
 				</div>
-				<img src="images/microsoft.jpg" height=150 width=400 class='sponsors'/>
-				<img src="images/oxford.jpg" height=150 width=400 class='sponsors'/>
-				<img src="images/facebook.jpeg" height=150 width=400 class='sponsors'/>
+				<div class='large_sponsors_logos'>
+					<img src="images/microsoft_in_aspect.png"/>
+					<img src="images/facebook_in_aspect.png"/>
+					<img src="images/oxfordinstruments_in_aspect.png"/>
+				</div>
 				<p class="pull-right"><a href="#">Back to top</a></p>
 				<p>&copy; Imperial Entrepreneurs 2012, by <a href="mailto:sam.wong09@imperial.ac.uk">Sam</a></p>
 			</section>
