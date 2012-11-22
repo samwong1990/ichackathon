@@ -3,7 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>Sign up for Imperial Hackathon</title>
-	<meta name="description" content="">
+	<meta name="description" content="Imperial College Hackathon">
+	<meta name="keywords" content="ichackathon, Imperial College Hackathon">
 	<meta name="author" content="Sam Wong sam.wong09@imperial.ac.uk">
 
 	<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
