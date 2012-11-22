@@ -309,7 +309,7 @@
 				<div class="page-header">
 					<h1>Tools <small>We want you to succeed</small></h1>
 				</div>
-				<h3>The following tools will be provide to help you:</h3>
+				<h3>The following tools will be provided to help you:</h3>
 				<ul class='tools_ul'>
 					<li>A dedicated server to host your projects</li>
 					<li>A Raspberry Pi (!)</li>
