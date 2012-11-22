@@ -244,7 +244,7 @@
 									</div>
 								</fieldset>
 								<div class="actions" style='clear:both;'>
-									<input type="checkbox"> I agree this box is unchecked, and I did not pay attention to the <a href="http://nyan.cat">T&C</a>
+									<input type="checkbox"> I agree this box is unchecked, and I did not pay attention to the <a href="http://nyan.cat">T&C</a><br><br>
 									<input type="submit" class="btn primary" value="That was easy">&nbsp;<button type="reset" class="btn">Clear</button>
 								</div>
 							</form>
