@@ -256,7 +256,7 @@
 						<p class="lead">							
 						Your team, your idea, your most productive 48 hours.</p>
 						<p>Show Facebook and Microsoft engineers what you are made of. Food and Redbull will always be there to fuel you throughout the weekend.</p>
-						<p>How would you make a lasting impact with a server and a raspberry pi?</p>
+						<p>How would you make an impact with a server and a raspberry pi?</p>
 						<p style='text-align: center;'>
 							<span class="btn success large" id='main_signup' style='vertical-align: middle; font-size: 20px; margin-bottom: 20px;'>Signup &raquo;</span>
 						</p>
