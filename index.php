@@ -198,7 +198,7 @@
 			</div>
 			<div id="signup" class="hero-unit">  
 				<h1 style='text-align: center; margin-bottom:0.3em;'>
-					Imperial Hackathon
+					ICHackathon
 					<span class="btn info large" id='tldrbtn' style='vertical-align: middle; font-size: 20px;'>tl;dr / Signup &raquo;</span>
 				</h1>
 				<br>
@@ -253,7 +253,7 @@
 				<div class="row">
 					<div class="span9">
 						<p class="lead">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquet, nunc feugiat bibendum aliquam, neque tellus hendrerit tellus, vel ultricies massa ipsum vitae urna. Curabitur eget ipsum quam, nec consequat libero. In ultrices mauris at sapien facilisis euismod porta velit elementum. Praesent interdum, elit sit amet interdum dignissim, nulla turpis viverra arcu, sit amet imperdiet metus nisl id odio. Sed pretium tincidunt nunc, nec dapibus justo pharetra at.					
+						Your team, your idea, your most productive 48 hours. Show Facebook and Microsoft engineers what you are made of. Food and Redbull will always be there to fuel you throughout the weekend. Make Imperial stand out, make a lasting impact.
 						</p>
 						<p style='text-align: center;'>
 							<span class="btn success large" id='main_signup' style='vertical-align: middle; font-size: 20px; margin-bottom: 20px;'>Signup &raquo;</span>
@@ -262,7 +262,7 @@
 					<div class="span5">
 						<div class="sponsor_panel title_sponsors">
 							<h4>Our Friends:</h4>
-							<img src="images/microsoft.jpg"/><img src="images/microsoft.jpg"/><img src="images/microsoft.jpg"/><img src="images/microsoft.jpg"/><img src="images/microsoft.jpg"/><img src="images/microsoft.jpg"/><img src="images/microsoft.jpg"/><img src="images/microsoft.jpg"/>
+							<img src="images/microsoft.jpg"/><img src="images/facebook.jpeg"/><img src="images/oxford.jpg"/>
 						</div>
 					</div>
 				</div>
@@ -293,26 +293,6 @@
 				<div class="page-header">
 					<h1>Agenda <small>You don't want to miss anything</small></h1>
 				</div>
-				<h2>Comics placeholder</h2>
-				<img src="images/xkcdplaceholder.png" style="width:940px"/>
-				<!-- Example row of columns -->
-				<div class="row">
-					<div class="span-one-third">
-						<h2>Heading</h2>
-						<p>Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-						<p><a class="btn" href="#">View details &raquo;</a></p>
-					</div>
-					<div class="span-one-third">
-						<h2>Heading</h2>
-						<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-						<p><a class="btn" href="#">View details &raquo;</a></p>
-					</div>
-					<div class="span-one-third">
-						<h2>Heading</h2>
-						<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-						<p><a class="btn" href="#">View details &raquo;</a></p>
-					</div>
-				</div>
 			</section>
 			<section id='organisers'>
 				<div class="page-header">
@@ -326,13 +306,8 @@
 					<h1>Our Sponsors ♥ <small>Thank you</small></h1>
 				</div>
 				<img src="images/microsoft.jpg" height=150 width=400 class='sponsors'/>
-				<img src="images/microsoft.jpg" height=150 width=400 class='sponsors'/>
-				<img src="images/microsoft.jpg" height=150 width=400 class='sponsors'/>
-				<img src="images/microsoft.jpg" height=150 width=400 class='sponsors'/>
-				<img src="images/microsoft.jpg" height=150 width=400 class='sponsors'/>
-				<img src="images/microsoft.jpg" height=150 width=400 class='sponsors'/>
-				<img src="images/microsoft.jpg" height=150 width=400 class='sponsors'/>
-				<img src="images/microsoft.jpg" height=150 width=400 class='sponsors'/>
+				<img src="images/oxford.jpg" height=150 width=400 class='sponsors'/>
+				<img src="images/facebook.jpeg" height=150 width=400 class='sponsors'/>
 				<p class="pull-right"><a href="#">Back to top</a></p>
 				<p>&copy; Imperial Entrepreneurs 2012, by <a href="mailto:sam.wong09@imperial.ac.uk">Sam</a></p>
 			</section>
