@@ -48,6 +48,7 @@
 						<a class="brand" href="">ICHackathon</a>
 						<ul class="nav">
 							<li class='show_signup_form'><a href="#signup">Sign up</a></li>
+							<li><a href="#objectives">What is this about</a></li>
 							<li><a href="#agenda">Agenda</a></li>
 							<li><a href="#prizes">Prizes</a></li>
 							<li><a href="#tools">Tools</a></li>
@@ -276,6 +277,15 @@
 				</div>
 			</div>
 			<!-- End of eye catching block -->
+			<section id='objective'>
+				<div class="page-header">
+					<h1>What are we trying to do <small>and what you will be known for</small></h1>
+				</div>
+				<p>
+					The aim of this year is to make Imperial stand out, make other universities very jealous. This could be in terms of better teaching/learning experiences, a faster feedback cycle, and fixing broken systems. What inconvenience you? What is underutilized? What can you do with a network enabled slide player? Can the two projectors do something other than replicating the slides? Think big. 
+				</p>
+				<br>
+			</section>
 			<section id='agenda'>
 				<div class="page-header">
 					<h1>Agenda <small>Postponed to 19 Jan (TBC)</small></h1>
@@ -287,7 +297,7 @@
 							<td>Mon 14 Jan Midnight</td><td>Application Deadline</td>
 						</tr>
 						<tr>
-							<td>Wed 16 Jan</td><td>Selected team gets their server</td>
+							<td>Wed 16 Jan</td><td>Selected teams get their server</td>
 						</tr>
 						<tr>
 							<td>Sat 19 Jan</td><td>Hacking begins!</td>
