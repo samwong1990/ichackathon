@@ -291,7 +291,7 @@
 					<h1>What are we trying to do <small>and what you will be known for</small></h1>
 				</div>
 				<p>
-					The aim of this year is to make Imperial stand out, make other universities very jealous. This could be in terms of better teaching/learning experiences, a faster feedback cycle, fixing broken systems, and many other means. What inconvenience you? What is underutilized? What can you do with a network enabled powerpoint player? Can the two projectors do something other than replicating the slides? Think big. 
+					The aim this year is to make Imperial stand out, make other universities jealous. This could be in terms of improving the teaching/learning process, creating a faster feedback cycle, fixing broken systems and many other means. What inconveniences you? What is underutilized? What can you do with a network enabled powerpoint player? Can the two projectors be used for anything else than replicating slides? Think big, opportunities are endless. 
 				</p>
 				<br>
 			</section>
