@@ -323,12 +323,32 @@
 					<h1>Credits <small>The awesome people who make this happen</small></h1>
 				</div>
 				<h2 style="text-align:center">An Imperial Entrepreneurs & DocSoc joint production</h2>
-				<h2><u>The A Team:</u></h2>
-				<h3><a href="mailto:sam.wong09@imperial.ac.uk">Sam Wong: Director</a></h3>
-				<h3>Rudy Benfredj</h3>
-				<h3>Andrejs Antjufejevs</h3>
-				<h3>Serge Vasylechko</h3>
-				<h3>Maciek Biskupiak</h3>
+				<h2 style="text-align:center"><u>The A Team:</u></h2>
+				<table class="zebra-striped centered_table">
+					<thead><tr>
+						<th colspan="2">
+							<h3><a href="mailto:sam.wong09@imperial.ac.uk">Sam Wong: Director</a></h3>
+						</th>
+					</tr></thead>
+					<tbody>
+						<tr>
+							<td>
+								<h3>Rudy Benfredj</h3>
+							</td>
+							<td>
+								<h3>Andrejs Antjufejevs</h3>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h3>Serge Vasylechko</h3>
+							</td>
+							<td>
+								<h3>Maciek Biskupiak</h3>
+							</td>
+						</tr>
+					</tbody>
+				</table>
 				<br>
 			</section>
 			<section id='sponsors'>
