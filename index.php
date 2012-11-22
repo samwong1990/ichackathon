@@ -237,7 +237,7 @@
 										<div class="input">
 											<textarea class="xlarge" id="comments" name="comments" rows="3"></textarea>
 											<span class="help-block">
-												eg Want something other than Ubuntu, dietary requirements, expected platform of your hack (mobile, webapp, pervasive), etc
+												Expected platform of your hack (mobile, webapp, pervasive), want something other than Ubuntu, dietary requirements, etc
 											</span>
 										</div>
 									</div>
