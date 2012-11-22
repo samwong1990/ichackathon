@@ -233,11 +233,11 @@
 								</fieldset>
 								<fieldset>
 									<div class="clearfix">
-										<label for="comments">Skills & Additional Comments</label>
+										<label for="comments">Hacking fields & Additional Comments</label>
 										<div class="input">
 											<textarea class="xlarge" id="comments" name="comments" rows="3"></textarea>
 											<span class="help-block">
-												eg HTML5 dev, programmer, want to team up with design people, etc.
+												eg Want something other than Ubuntu, dietary requirements, expected platform of your hack (mobile, webapp, pervasive), etc
 											</span>
 										</div>
 									</div>
