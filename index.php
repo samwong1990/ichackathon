@@ -258,7 +258,7 @@
 							Your team, your idea, your most productive 48 hours.
 						</p>
 						<p>
-							How are you going to make an impact with a  dedicated server and a Raspberry Pi?<br>
+							How are you going to make an impact with a dedicated server and a Raspberry Pi?<br>
 							Show Facebook and Microsoft engineers what you are made of.
 						</p>
 						<p>
