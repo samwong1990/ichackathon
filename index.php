@@ -48,10 +48,10 @@
 						<a class="brand" href="">ICHackathon</a>
 						<ul class="nav">
 							<li class='show_signup_form'><a href="#signup">Sign up</a></li>
-							<li><a href="#prizes">Prizes</a></li>
-							<li><a href="#challenge">The Challenge</a></li>
 							<li><a href="#agenda">Agenda</a></li>
-							<li><a href="#organisers">Organisers</a></li>
+							<li><a href="#prizes">Prizes</a></li>
+							<li><a href="#tools">Tools</a></li>
+							<li><a href="#organisers">Credits</a></li>
 							<li class="active"><a href="#sponsors">Sponsors</a></li>
 						</ul>
 					</div>
@@ -243,7 +243,7 @@
 									</div>
 								</fieldset>
 								<div class="actions" style='clear:both;'>
-									<input type="checkbox"> I agree that I did not pay attention to the <a href="http://nyanc.at">T&C</a>
+									<input type="checkbox"> I agree that I did not pay attention to the <a href="http://nyan.cat">T&C</a>
 									<input type="submit" class="btn primary" value="That was easy">&nbsp;<button type="reset" class="btn">Clear</button>
 								</div>
 							</form>
@@ -254,7 +254,8 @@
 					<div class="span9">
 						<h5>An Imperial Entrepreneurs and DOCSOC Joint Production</h5>
 						<p class="lead">							
-						Your team, your idea, your most productive 48 hours.<br>Show Facebook and Microsoft engineers what you are made of. Food and Redbull will always be there to fuel you throughout the weekend. Make Imperial stand out, make a lasting impact.
+						Your team, your idea, your most productive 48 hours.</p>
+						<p>Show Facebook and Microsoft engineers what you are made of. Food and Redbull will always be there to fuel you throughout the weekend. Make Imperial stand out, make a lasting impact.
 						</p>
 						<p style='text-align: center;'>
 							<span class="btn success large" id='main_signup' style='vertical-align: middle; font-size: 20px; margin-bottom: 20px;'>Signup &raquo;</span>
@@ -301,17 +302,17 @@
 				<ul class='prizes_ul'>
 					<li>Cash prize</li>
 					<li>Referral to Angel Investors</li>
-					<li>And surprises during the hackathon(!)</li>
+					<li>And surprises during the hackathon (!)</li>
 				</ul>
 			</section>
 			<section id='tools'>
 				<div class="page-header">
 					<h1>Tools <small>We want you to succeed</small></h1>
 				</div>
-				<h3>To help you succeed, we are going to provide the following tools:</h3>
+				<h3>The following tools will be provide to help you:</h3>
 				<ul class='tools_ul'>
 					<li>A dedicated server to host your projects</li>
-					<li>Raspberry Pis</li>
+					<li>A Raspberry Pi (!)</li>
 					<li>Endless beverages</li>
 					<li>Mentors from Facebook, Microsoft and (Real, established) Entrepreneurs</li>
 					<li>And finally, a post-hackathon marketing campaign</li>
@@ -322,7 +323,7 @@
 					<h1>Credits <small>The awesome people who make this happen</small></h1>
 				</div>
 				<h2 style="text-align:center">An Imperial Entrepreneurs & DocSoc joint production</h2>
-				<h3>The A Team:</h3>
+				<h2><u>The A Team:</u></h2>
 				<h3><a href="mailto:sam.wong09@imperial.ac.uk">Sam Wong: Director</a></h3>
 				<h3>Rudy Benfredj</h3>
 				<h3>Andrejs Antjufejevs</h3>
