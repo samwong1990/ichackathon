@@ -253,7 +253,7 @@
 				</div>
 				<div class="row">
 					<div class="span9">
-						<h5>An Imperial Entrepreneurs and DOCSOC Joint Production</h5>
+						<h5>An Imperial Entrepreneurs and DocSoc Joint Production</h5>
 						<p class="lead">							
 							Your team, your idea, your most productive 48 hours.
 						</p>
