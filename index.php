@@ -298,19 +298,19 @@
 			</section>
 			<section id='agenda'>
 				<div class="page-header">
-					<h1>Agenda <small>Postponed to 19 Jan (TBC)</small></h1>
+					<h1>Agenda</h1>
 				</div>
 				<table class='zebra-striped'>
 					<thead><tr><td style="border-top:0px">Date</td><td style="border-top: 0px"></td></tr></thead>
 					<tbody>
 						<tr>
-							<td>Mon 14 Jan Midnight</td><td>Application Deadline</td>
+							<td>Mon 21 Jan Midnight</td><td>Application Deadline</td>
 						</tr>
 						<tr>
-							<td>Wed 16 Jan</td><td>Selected teams get their server</td>
+							<td>Wed 23 Jan</td><td>Selected teams get their server</td>
 						</tr>
 						<tr>
-							<td>Sat 19 Jan</td><td>Hacking begins!</td>
+							<td>Sat 26 Jan</td><td>Hacking begins!</td>
 						</tr>
 					</tbody>
 				</table>
