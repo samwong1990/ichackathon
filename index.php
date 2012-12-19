@@ -287,7 +287,7 @@
 				</div>
 			</div>
 			<!-- End of eye catching block -->
-			<section id='objective'>
+			<section id='objectives'>
 				<div class="page-header">
 					<h1>What are we trying to do <small>and what you will be known for</small></h1>
 				</div>
