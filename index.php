@@ -304,13 +304,13 @@
 					<thead><tr><td style="border-top:0px">Date</td><td style="border-top: 0px"></td></tr></thead>
 					<tbody>
 						<tr>
-							<td>Mon 21 Jan Midnight</td><td>Application Deadline</td>
+							<td>Mon 28 Jan Midnight</td><td>Application Deadline</td>
 						</tr>
 						<tr>
-							<td>Wed 23 Jan</td><td>Selected teams get their server</td>
+							<td>Wed 30 Jan</td><td>Selected teams get their server</td>
 						</tr>
 						<tr>
-							<td>Sat 26 Jan</td><td>Hacking begins!</td>
+							<td>Sat 2 Feb</td><td>Hacking begins! Be in SAF 119 at 10am!</td>
 						</tr>
 					</tbody>
 				</table>
