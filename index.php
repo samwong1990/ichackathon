@@ -307,7 +307,7 @@
 							<td>Mon 28 Jan Midnight</td><td>Application Deadline</td>
 						</tr>
 						<tr>
-							<td>Wed 30 Jan</td><td>Selected teams get their server</td>
+							<td>Wed 30 Jan</td><td>Selected teams get their server and Raspberry Pis</td>
 						</tr>
 						<tr>
 							<td>Sat 2 Feb</td><td>Hacking begins! Be in SAF 119 at 10am!</td>
